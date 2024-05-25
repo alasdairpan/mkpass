@@ -1,0 +1,18 @@
+[package]
+authors = ["Trayvon Pan <trayvonpan@gmail.com>"]
+categories = ["command-line-utilities", "cryptography"]
+description = "Command line tool to generate passwords"
+documentation = "https://docs.rs/mkpass/"
+edition = "2021"
+keywords = ["password", "generator", "commandline"]
+license = "MIT"
+name = "mkpass"
+readme = "README.md"
+repository = "https://github.com/trayvonpan/mkpass/"
+version = "0.1.1"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+rand = "0.8.5"
